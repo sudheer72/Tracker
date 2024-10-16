@@ -1,0 +1,56 @@
+{
+  "employee": [
+    {
+      "id": "1",
+      "name": "Jane Smith",
+      "email": "jane.smith@baarilabs.com"
+    }
+  ],
+  "attendance": [
+    {
+      "id": "1",
+      "status": "in",
+      "clockInTime": "2024-10-16T07:42:16.695Z",
+      "clockOutTime": null,
+      "totalHours": 0
+    }
+  ],
+  "dailyUpdates": [
+    {
+      "id": "1",
+      "date": "2023-06-30",
+      "update": "Completed the frontend for Project Alpha"
+    },
+    {
+      "id": "3020",
+      "date": "2024-10-16",
+      "update": "Completed the backend for Project Beta"
+    }
+  ],
+  "timesheet": [
+    {
+      "id": "1",
+      "date": "2023-06-30",
+      "projects": [
+        {
+          "name": "Project Alpha",
+          "hours": 4
+        },
+        {
+          "name": "Project Beta",
+          "hours": 4
+        }
+      ]
+    },
+    {
+      "id": "965f",
+      "date": "2024-10-16",
+      "projects": [
+        {
+          "name": "Project C",
+          "hours": 5
+        }
+      ]
+    }
+  ]
+}
